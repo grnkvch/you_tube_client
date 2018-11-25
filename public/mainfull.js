@@ -320,7 +320,7 @@ const request = new YouTubeRequest();
 const searchLine = new SearchLine();
 const slider = new Slider(request);
 const swipe = new Swiper(slider, slider.pageLeft, slider.pageRight, slider.slideBar);
-swipe.addSwipeListeners(slider.slideBar);
+swipe.addSwipeListeners(window);
 const keybordControl = new KeybordControl(slider,{"37":slider.pageLeft,"39":slider.pageRight});
 
 
