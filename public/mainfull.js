@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-multi-str */
-/* eslint-disable no-undef */
 class SearchLine {
   constructor() {
     this.inputElement = null;
